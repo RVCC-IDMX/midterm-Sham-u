@@ -1,0 +1,103 @@
+body {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+    background-color: #002333;
+    color: #FFFFFF;
+}
+
+
+header {
+    font-family: "Quintessential", serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 3px solid #B4BEC9;
+    padding: 2px;
+    background-color: #159A9C;
+    text-align: center;
+    font-size:40px;
+}
+
+
+/*About the Company*/
+
+h2 {
+    font-family: "Quintessential", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+}
+
+#about-company {
+    text-align: center;
+    font-family: 20px;
+}
+
+/*Portfolio*/
+
+h3 {
+    font-family: "Quintessential", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 2px dotted #B4BEC9;
+    padding-bottom: 6px;
+}
+
+#portfolio {
+    border: 5px solid #B4BEC9;
+    padding: 3px;
+}
+
+#portfolio img {
+    max-width: 100%;
+    border: 1px solid #B4BEC9;
+}
+
+#portfolio figure {
+    text-align: center;
+
+}
+
+#portfolio figcaption {
+    font-size: 20px;
+    border: 2px solid #B4BEC9;
+}
+
+
+
+/*Review*/
+h4,h5,h6 {
+    color: #002333;
+    font-size: 19px;
+    border-bottom: 2px dotted #159A9C;
+    text-align: center;
+}
+
+#reviews {
+    color: #002333;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.review-box {
+    background: #DEEFE7;
+    border: 4px outset;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+/*footer*/
+
+footer {
+    border: 3px solid #B4BEC9;
+    padding: 2px;
+    background-color: #159A9C;
+    text-align: center;
+}
