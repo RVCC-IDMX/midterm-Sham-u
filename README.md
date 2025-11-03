@@ -1,1 +1,1 @@
-# IDMX 225 Midterm
+# Sam Buccarelli IDMX 225 Midterm
