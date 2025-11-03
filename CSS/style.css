@@ -32,7 +32,11 @@ h2 {
 
 #about-company {
     text-align: center;
-    font-family: 20px;
+    font-size: 20px;
+}
+
+#about-company img {
+    max-width: 100%;
 }
 
 /*Portfolio*/
@@ -100,4 +104,54 @@ footer {
     padding: 2px;
     background-color: #159A9C;
     text-align: center;
+}
+
+
+/*mobile media size*/
+
+@media screen and (min-width: 20em) {
+    header {
+        font-size: 20px;
+    }
+
+    h2,h3 {
+        font-size: 18px;
+    }
+
+    h4,h5,h6 {
+        font-size: 16px;
+    }
+
+    #portfolio figcaption {
+        font-size: 15px;
+    }
+
+    #about-company {
+        font-size: 15px;
+    }
+
+}
+
+/*tablet and computer media size*/
+
+@media screen and (min-width: 60em ) {
+    header {
+        font-size:40px;
+    }
+
+    h2,h3 {
+        font-size: 25px;
+    }
+
+     h4,h5,h6 {
+        font-size: 19px;
+     }
+
+     #portfolio figcaption {
+        font-size: 20px;
+     }
+
+     #about-company {
+        font-size: 20px;
+     }
 }
